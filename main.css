@@ -32,6 +32,10 @@ body {
     padding-left: 11%;
 }
 
+.main.crypto {
+    padding-top: 30vh;
+}
+
 .main h2 {
     color: white;
     font-weight: 300;
@@ -77,8 +81,16 @@ a:hover {
     color: rgb(207, 207, 207);
 }
 
+#qrcode {
+    height: 256px;
+    width: 256px;
+    background-color: white;
+    padding: 1rem;
+}
+
 @media (max-width: 767px) {
-    .main {
+    .main,
+    .main.crypto {
         padding-top: 25vh;
         padding-left: 15px;
     }
